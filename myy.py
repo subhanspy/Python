@@ -12,8 +12,4 @@ traffic_sig = {
 for place,cars_data in traffic_sig.items():
 
     total = sum(cars_data)
-    print(f"From {place} tatal {total} cars passed. ")    
-
-
-
-
+    print(f"From {place} tatal {total} cars passed. ")   

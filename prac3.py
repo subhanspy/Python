@@ -23,8 +23,17 @@ for key, value in person.items():    #item ka kam inhy pairs mein rakhna hai key
     print(f"This is the key: {key}; and its value is: {value}")
 
 #Zip
-Names = ["Ali","Ahmad","Asif","AAhmar"]
-Age = [20,29,18,23,26]
+Names = ["Ali","Ahmad","Asif","Ahmar"]
+Ages = [20,29,18,23,26]
+for name,age in zip(Names,Ages):
+    print(f"{name} is {age} years old.")
 
+#iterate both value and index
+Names = ["Ali","Ahmad","Asif","Ahmar"]
+for index,value in enumerate(Names):
+    print(index,value)
+
+for i in range(0,5,2):
+    print(i)
 
 
