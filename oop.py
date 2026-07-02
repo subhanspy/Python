@@ -34,3 +34,34 @@ player2=Player("Mbappe",119)
 player3=Player("Bellingham",119)
 
 player3.show_card()
+
+#Car
+class Car:
+    def __init__ (self,brand,model,year):
+        self.Brand=brand
+        self.Model=model
+        self.Year=year
+    
+    def engine(self):
+        print(f"The {self.Brand} {self.Model} {self.Year} is started!!")
+    
+C1= Car("Toyota","Corolla",2016)
+C2=Car("Honda","Civic",2018)
+
+C1.engine()
+
+#class and instances
+class Car:
+    wheel=4
+    def __init__(self,model,color):
+        self.Model=model
+        self.Color=color
+    
+    def profile(self):
+        print(f"This is {self.Model} {self.Color} car with {self.wheel} wheels.")
+    
+C1=Car("corolla","Black")
+C2=Car("Civic","White")
+
+C1.profile()
+C2.profile()
