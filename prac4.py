@@ -52,4 +52,16 @@ def addition (*args):
     return total
 
 add = addition(10,20,30,40,10)
-print(add)    
+print(add)   
+
+#Global Variable
+
+global_var = 10  
+
+def function():
+    local_var = 5  
+    print(global_var)
+
+function()
+#print(local_var) Error
+## We cannot call local variable outside the function
