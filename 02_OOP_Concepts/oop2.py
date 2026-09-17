@@ -9,7 +9,7 @@ class Car:
 
 #Car method full name
     def full_name(self):
-     return f"The car name is {self.brand} {self.model}"
+     return f"The car name is {self.__brand} {self.model}"
     
     def get_brand(self):
        return self.__brand + "!"
